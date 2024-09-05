@@ -1,0 +1,38 @@
+/* Carouse Container Styles */
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+
+.carousel-container-title img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+/* Title Container CSS */
+
+.root-title-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  .root-title-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+}
