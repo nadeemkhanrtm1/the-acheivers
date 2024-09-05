@@ -1,1416 +1,651 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<link>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achievers: Your Partner in Academic Success – Empowering Students to Succeed</title>
-    <meta name="description" content="Achievers provides personalized tutoring, study resources, and expert guidance to help students excel in their academics. Discover tailored learning solutions, proven strategies, and dedicated support to achieve your educational goals.">
-    <link rel="icon" href="achievers.png" type="image/png" sizes="16x16">
-    <link rel="icon" href="achievers.png" type="image/png" sizes="32x32">
-    <link rel="apple-touch-icon" href="achievers.png" sizes="180x180">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Achievers - Empowering Students to Succeed in Academics">
-    <meta property="og:description" content="Achievers is dedicated to helping students excel through personalized tutoring, comprehensive study resources, and expert academic guidance. Join our community to unlock your full potential and achieve success in your studies.">
-    <meta property="og:image" content="achievers.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/index-v2.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J0EGFNS2GT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-J0EGFNS2GT');
-</script>
+    <!-- FlowBite Added -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles/index-v2.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 
-<!-- text animation script -->
+    <!-- Tailwind Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <scipt src="js/tailwind.config.js"></scipt>
 
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- text animation script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <div class="max-w-screen-xl mx-auto px-4">
+      <!-- Navbar -->
+      <nav class="bg-white border-gray-200">
+        <div class="flex flex-wrap items-center justify-between">
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img
+              src="images/achievers.png"
+              class="h-12"
+              alt="Achievers Org Logo"
+            />
+          </a>
+          <div>
+            <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
+            target="_self"
+            class="inline-block bg-blue-600 text-white text-md font-semibold py-1.5 px-3 rounded-lg hover:bg-blue-700 transition duration-300 md:hidden"
+            >Enroll Now</a
+          >
+            <button
+              data-collapse-toggle="navbar-default"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
 
-<!-- Tailwind Configuration -->
-<script src="https://cdn.tailwindcss.com"></script>
-<scipt src="js/tailwind.config.js"></scipt>
-</head>
-<body>
-    <div id="root">
-        <nav
-            style="position:sticky;top:0px;display:flex;justify-content:flex-end;align-items:center;border-bottom:1px solid rgba(0, 0, 0, 0.07);z-index:1;text-overflow:ellipsis;height:50px;box-sizing:border-box;">
-            <input id="menuToggle" type="checkbox" style="display:none;"><label id="menuButton" for="menuToggle">
-                <div id="menuButtonIcon" style="width:24px;padding:8px;"><svg viewBox="0 0 24.0 24.0"
-                        preserveAspectRatio="none" style="background:url('data:image/png;base64,');">
-                        <path
-                            d="M5.75 5.25h12.5a.75.75 0 1 1 0 1.5H5.75a.75.75 0 0 1 0-1.5zm0 6h12.5a.75.75 0 1 1 0 1.5H5.75a.75.75 0 1 1 0-1.5zm0 6h12.5a.75.75 0 1 1 0 1.5H5.75a.75.75 0 1 1 0-1.5z">
-                        </path>
-                    </svg></div>
-            </label>
-            <ul id="verticalMenu">
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="/#home" title="Home"
-                        target="_self">Home</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="/#about"
-                        title="About" target="_self">About</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#why-us"
-                        title="Why Us?" target="_self">Why Us?</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#join-us"
-                        title="Join Us" target="_self">Join Us</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact-us"
-                        title="Contact Us" target="_self">Contact Us</a></li>
+          </div>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-black"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="block py-2 px-3 text-black">About</a>
+              </li>
+              <li>
+                <a href="#what-us" class="block py-2 px-3 text-black"
+                  >What Us?</a
+                >
+              </li>
+              <li>
+                <a href="#join-us" class="block py-2 px-3 text-black"
+                  >Join Us</a
+                >
+              </li>
+              <li>
+                <a href="#contact-us" class="block py-2 px-3 text-black"
+                  >Contact Us</a
+                >
+              </li>
             </ul>
-            <ul id="horizontalMenu" style="margin:0;padding:0;visibility:hidden;">
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#home" title="Home"
-                        target="_self">Home</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#about"
-                        title="About" target="_self">About</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#why-us"
-                        title="Why Us?" target="_self">Why Us?</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#join-us"
-                        title="Join Us" target="_self">Join Us</a></li>
-                <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact-us"
-                        title="Contact Us" target="_self">Contact Us</a></li>
-            </ul>
-        </nav>
-        <a id="home" aria-hidden="true" style="visibility:hidden;"></a>
-        <section class="max-w-7xl mx-auto px-4">
-            <div class="root-title-container gap-10">
-                <div>
-                    <p class="text-[10rem] md:text-6xl">We are Acheivers for <span class="auto-type text-[var(--colorBrown)]"></span></p>
-                </div>
-                <div>
-                    <div class="carousel-container-title">
-                        <img src="images/achievers-group-1.jpeg"/>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Title Container -->
+      <section
+        id="#"
+        class="md:mt-0 mt-10 md:min-h-[calc(100vh-50px)] h-auto flex md:flex-row flex-col items-center justify-between gap-10"
+      >
+        <div class="flex-1 min-h-24 md:text-[unset] text-center">
+          <p class="text-[2rem] md:text-6xl">
+            Helping Students Become Achievers in
+            <span class="auto-type text-[var(--colorBrown)]"></span>
+          </p>
+        </div>
+        <div class="flex-1 md:w-auto w-full">
+          <div
+            id="default-carousel"
+            class="relative w-full"
+            data-carousel="slide"
+          >
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="images/achievers-group-1.jpeg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="images/achievers-group-2.jpeg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
             </div>
-        </section>
-        <a id="about" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="AOgRk3CcKvSz3ygH"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="hoMtK3mSRWwC0Tmy"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="mk6Ct9nqR2J7kmJW" style="z-index:0;">
-                    <div id="AdGWcYokIfEr5EYJ"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="RWXCgX98fcYiuQ4z" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="ZOehklX41CIJuSPU"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Slider indicators -->
+            <div
+              class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+            >
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-carousel-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 2"
+                data-carousel-slide-to="1"
+              ></button>
             </div>
-            <div id="aFY2kAdfTebFi4h2" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="cGqUuKs5o49ncQCo" style="z-index:4;">
-                    <div id="kceTrINwPr9sOAiT" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-LEFT-1446214b-0b72-4c7a-872d-891dc0df0a78 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="mcbn3SFs746LVyKG"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="pBvRULa6uzbV8QE4"
-                                        style="color:var(--colorWhite);font-family:YAEahSPMowE-0;line-height:1.15625542em;text-align:center;text-transform:none;letter-spacing:0.022em;">
-                                        <span id="eMyeQ5YlKZJOnfID" style="color:var(--colorWhite);">Who </span><span
-                                            id="bkXPJPtG8MOEbdEg" style="color:var(--colorBrown)">we</span><span
-                                            id="Sj6chrtWvayLqtIM" style="color:var(--colorWhite);"> are?</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="YBPnhoAmosU3gyQj">
-                    <div id="OKxOeQKJaBXKfHyA" style="display:grid;position:relative;grid-area:4 / 3 / 5 / 5;">
-                        <div id="W30sjJZzoJMoL0ak" style="z-index:3;">
-                            <div id="bGpWduXGEXstaSRt" style="box-sizing:border-box;width:100%;height:100%;">
-                                <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated"
-                                        style="width:100%;height:100%;animation:rise-LEFT-3f3692af-b43e-4fac-ae08-04176373446e 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                        <div id="coIzbyHHMY9W2AkN"
-                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="atXrcJLKLt12zthn"
-                                                style="color:var(--colorWhite);direction:ltr;font-family:YAEahSPMowE-0;margin-left:0em;line-height:1.15625542em;text-align:center;text-transform:none;letter-spacing:0.022em;">
-                                                <span id="XWLBUkuep3CbXRdL"
-                                                    style="text-decoration-line:none;color:var(--colorBrown);font-style:normal;font-weight:400;">The
-                                                    Acheivers:</span><span id="T0YZEPETdQJ7DutK"
-                                                    style="text-decoration-line:none;color:var(--colorWhite);font-style:normal;font-weight:400;">
-                                                    Where talent meets its true destiny.</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="kkd64aJLlmaLcIdZ" style="z-index:2;">
-                            <div id="VnZNihsvKt83gs0X" style="box-sizing:border-box;width:100%;height:100%;">
-                                <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated"
-                                        style="width:100%;height:100%;animation:rise-RIGHT-8685bd1c-0e2c-45fe-a89c-b34544ecea8e 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                        <div id="CwBHgVHgV1TFtVaZ"
-                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="ndgfGvfp6QBlQrtq"
-                                                style="color:var(--colorWhite);direction:ltr;;margin-left:0em;line-height:1.48026316em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                <span id="pV3o0pVSjb4EkeDk" style="color:var(--colorWhite);font-weight:700;">At
-                                                    The Achievers, we are a Corporate Talent Outsourcing Company. We
-                                                    guide professionals to their pinnacle, helping candidates get placed
-                                                    in reputable MNCs and startups across various roles such as IT,
-                                                    Non-IT, core jobs like ECE, Mechanical, Civil, HR, Marketing, and
-                                                    Finance. Join us, and let's grow together.</span><br></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 1 1 5l4 4"
+                  />
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 6 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 9 4-4-4-4"
+                  />
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Divider Width -->
+      <div class="mt-10 md:mt-0"></div>
+
+      <!-- Who we are you section -->
+      <section class="">
+        <h1
+          class="text-left underline mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-black"
+        >
+          Who We Are ?
+        </h1>
+        <h2
+          class="text-left my-5 text-2xl font-medium leading-none tracking-tight text-gray-500 md:text-5xl lg:text-6xl text-gray-500"
+        >
+          The Achievers: Where Talent Finds Its True Path
+        </h2>
+        <p
+          class="text-left mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
+        >
+          At The Achievers, we are a premier Corporate Talent Outsourcing firm
+          dedicated to guiding professionals toward their ultimate career goals.
+          We specialize in placing candidates in top-tier MNCs and innovative
+          startups, across a spectrum of roles, from IT and Non-IT positions to
+          core fields like Electronics, Mechanical, Civil Engineering, HR,
+          Marketing, and Finance. Join us and let’s chart the course to your
+          success—together.
+        </p>
+      </section>
+
+      <!-- Divider Width -->
+      <div class="mt-10 md:mt-0"></div>
+
+      <section>
+        <h1
+          class="text-left underline mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-black"
+        >
+          Our Guiding Principles
+        </h1>
+
+        <div class="grid col-auto grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Empowerment -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img src="images/empowernment.webp" class="object-cover mb-3" />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Empowerment
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              We believe in unlocking the potential within every individual,
+              guiding them to become the best version of themselves in their
+              chosen career paths.
+            </p>
+          </a>
+          <!-- Integrity -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img
+              src="images/all-what-us.webp"
+              alt="Integrity Image"
+              class="object-cover mb-3"
+            />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Integrity
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              Trust is at the heart of everything we do. We operate with
+              honesty, transparency, and a commitment to ethical practices in
+              all our relationships.
+            </p>
+          </a>
+
+          <!-- Excellence -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img
+              src="images/all-what-us.webp"
+              alt="Excellence Image"
+              class="object-cover mb-3"
+            />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Excellence
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              We strive for the highest standards in every aspect of our work,
+              constantly pushing boundaries to deliver exceptional results for
+              our clients and candidates.
+            </p>
+          </a>
+
+          <!-- Innovation -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img
+              src="images/all-what-us.webp"
+              alt="Innovation Image"
+              class="object-cover mb-3"
+            />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Innovation
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              Embracing change and encouraging creativity, we are always
+              exploring new approaches to talent management, recruitment, and
+              professional growth.
+            </p>
+          </a>
+
+          <!-- Collaboration -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img
+              src="images/all-what-us.webp"
+              alt="Collaboration Image"
+              class="object-cover mb-3"
+            />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Collaboration
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              We value the power of partnerships, working hand-in-hand with
+              companies and candidates to achieve shared success and growth.
+            </p>
+          </a>
+
+          <!-- Diversity and Inclusion -->
+          <a
+            href="#"
+            class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <img
+              src="images/all-what-us.webp"
+              alt="Diversity and Inclusion Image"
+              class="object-cover mb-3"
+            />
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Diversity and Inclusion
+            </h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+              We celebrate diversity and promote an inclusive environment where
+              every individual feels respected, valued, and empowered to
+              contribute.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Divider Width -->
+      <div class="mt-10"></div>
+
+      <!-- What We Do Section -->
+      <section>
+        <h1
+          class="text-left underline mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-black"
+        >
+          What We Do
+        </h1>
+
+        <ol class="relative border-s border-gray-200 dark:border-gray-700">
+          <li class="mb-10 ms-4">
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            ></div>
+            <time class="mb-1 font-bold text-sm leading-none text-gray-800"
+              >Talent Outsourcing</time
+            >
+            <h3 class="text-lg font-semibold text-gray-900">
+              Specializing in corporate talent outsourcing.
+            </h3>
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              We match candidates with opportunities in multinational
+              corporations and startups.
+            </p>
+          </li>
+          <li class="mb-10 ms-4">
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            ></div>
+            <time class="mb-1 font-bold text-sm leading-none text-gray-800"
+              >Diverse Roles</time
+            >
+            <h3 class="text-lg font-semibold text-gray-900">
+              Offering a variety of roles
+            </h3>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              We place candidates in fields including IT, Non-IT, ECE,
+              Mechanical, Civil, HR, Marketing, and Finance.
+            </p>
+          </li>
+          <li class="ms-4">
+            <div
+              class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            ></div>
+            <time class="mb-1 font-bold text-sm leading-none text-gray-800">
+              Entrepreneurial Support</time
+            >
+            <h3 class="text-lg font-semibold text-gray-900">
+              Supporting aspiring entrepreneurs
+            </h3>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              We assist in starting and growing profitable businesses.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Divider Width -->
+      <div class="mt-10"></div>
+
+      <!-- What We Do Section -->
+      <section class="bg-white">
+        <div
+          class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
+        >
+          <div class="font-light text-gray-500 sm:text-lg">
+            <h2
+              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
+            >
+              We didn't reinvent the wheel
+            </h2>
+            <p class="mb-4">
+              We are strategists, designers and developers. Innovators and
+              problem solvers. Small enough to be simple and quick, but big
+              enough to deliver the scope you want at the pace you need. Small
+              enough to be simple and quick, but big enough to deliver the scope
+              you want at the pace you need.
+            </p>
+            <p>
+              We are strategists, designers and developers. Innovators and
+              problem solvers. Small enough to be simple and quick.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-4 mt-8">
+            <img
+              class="w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+              alt="office content 1"
+            />
+            <img
+              class="mt-4 w-full lg:mt-10 rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+              alt="office content 2"
+            />
+          </div>
+        </div>
+      </section>
+
+       <!-- Divider Width -->
+       <div class="mt-10"></div>
+       
+
+      <section>
+        <div>
+          <h2 class="text-3xl font-semibold text-center mb-6">
+            Ready to Elevate Your Career or Start Your Business?
+          </h2>
+          <p class="text-lg text-center mb-8">
+            Enroll Now and Take the Next Step!
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md text-center">
+              <h3 class="text-xl font-semibold mb-2">Why Enroll?</h3>
+              <ul class="list-disc list-inside text-left">
+                <li class="mb-2">
+                  Personalized Support: Receive tailored guidance and
+                  opportunities that match your skills and goals.
+                </li>
+                <li class="mb-2">
+                  Diverse Opportunities: Access a wide range of roles across
+                  various industries and sectors.
+                </li>
+                <li>
+                  Entrepreneurial Guidance: Get expert support to launch and
+                  grow your own profitable business.
+                </li>
+              </ul>
             </div>
-        </section><a id="page-3" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="J6BwPs9jL7eRGq6a"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="azb65exuImMzJ3TM"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="g47TsHCUnYwRQkUs" style="z-index:0;">
-                    <div id="Erzmg9aeJIQJcpsW"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="mhDVjclmVWJlOYe3" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="tmTA0xZwtKZCLANQ"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md text-center">
+              <h3 class="text-xl font-semibold mb-2">How It Works:</h3>
+              <ol class="list-decimal list-inside text-left">
+                <li class="mb-2">
+                  Sign Up: Fill out our simple enrollment form.
+                </li>
+                <li class="mb-2">
+                  Consultation: Schedule a one-on-one consultation with our
+                  experts.
+                </li>
+                <li>
+                  Get Matched: Receive personalized recommendations for job
+                  placements or business support.
+                </li>
+              </ol>
             </div>
-            <div id="L2wXHixhx225pcJ9" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="XxQOMo4CjK1HL2TM" style="z-index:16;">
-                    <div id="IFExvwSLZ5eNuLU9" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:pan-LEFT-dca49aae-8a4c-48ba-a985-4d87d78e2dc9 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="hOO3sHZxMbtxekVU"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="PON6iffVyF2jyRG5"
-                                        style="color:var(--colorBrown);direction:ltr;font-family:YAFcfoaHu-s-0;margin-left:0em;line-height:1em;text-align:center;letter-spacing:0.03em;text-shadow:0.04419417em 0.04419417em 0.075em rgba(0, 0, 0, 0.400000);">
-                                        <span id="t5yJnuHIm7RGuCYE" style="color:var(--colorBrown);font-weight:700;">Our
-                                        </span><span id="hrbUDcV2n1ZE9T67"
-                                            style="color:var(--colorWhite);font-weight:700;">Values</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-                <div id="WUnYzmIOeuQlCxnS">
-                    <div id="zqcmlom8PhEJyhLP" style="display:grid;position:relative;">
-                        <div id="vWXGXrGaGTKmpkMp" style="z-index:4;">
-                            <div id="tMQT9YoRIJswECxz"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);"><svg
-                                    id="mxxwhiQ4FSi1lBTA" viewBox="0 0 94.2014 64.0" preserveAspectRatio="none"
-                                    style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
-                                    <g id="i1VIsyG8gdm9T1io" style="transform:scale(1, 1);">
-                                        <g id="GlKc0UFfdEgsvn1A" style="clip-path:url(index.html#EwCMXPUxtWZWnHaF);">
-                                            <clipPath id="EwCMXPUxtWZWnHaF">
-                                                <path d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"></path>
-                                            </clipPath>
-                                            <path id="NSdxL4m81Ldm8273" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:#101728;opacity:1.0;"></path>
-                                            <path id="oCWGgFxuckatfPVe" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:none;stroke-linecap:butt;vector-effect:non-scaling-stroke;stroke:var(--colorBrown);">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg></div>
-                        </div>
-                        <div id="k5AxcuPgVj3gRL49" style="z-index:7;">
-                            <div id="tqfyCUGFALgTwyqy" style="padding-top:132.01320132%;">
-                                <div id="VLvLo5gpyVGr4CFK"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pan-LEFT-ee11391f-b31d-4538-8126-9ed0daf07a6c 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                            <div id="kFHW8PcUV19FeEhu" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="FzROLHdIfAz4kUDd"
-                                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="yUhYjTNcgrry0mnd"
-                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="images/3c3552f40566fb823d0cbdbd63e54c96.svg"
-                                                            alt="Light Bulb Idea Illustration" loading="lazy"
-                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="sMnsUHkK7EzhcveT" style="z-index:17;">
-                    <div id="gP1SFvzP9JoPthOB"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="HMXw1iRqxWtltGbu"
-                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="df6yJlyB4tePAEKd"
-                                style="color:var(--colorWhite);font-family:YAFdJoLIdPI-0;line-height:1.45312727em;text-align:center;letter-spacing:-0.02em;">
-                                <span id="yF6x5MpEuxurevTq" style="color:var(--colorWhite);font-weight:700;">Grow Further</span>
-                            </p>
-                            <p id="pUBO3x9U6L4w8tEY"
-                                style="color:#e7e9ec;direction:ltr;font-family:YAFdJoLIdPI-0;margin-left:0em;line-height:1.5em;text-align:center;text-transform:none;letter-spacing:-0.02em;">
-                                <span id="sYN7warYbZIJnK6s" style="color:#e7e9ec;">Growing with pace. Grows Swapfiets,
-                                    grow yourself.</span><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="uWyu01w5hCDAkEk2">
-                    <div id="O8MQZkLJ30Foobwm" style="display:grid;position:relative;">
-                        <div id="JO1zUWz6sS8sYZTf" style="z-index:5;">
-                            <div id="ToqukNPZ1GOHZnxW"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);"><svg
-                                    id="kzOJv9Ryx3xEkZVM" viewBox="0 0 94.2014 64.0" preserveAspectRatio="none"
-                                    style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
-                                    <g id="RSpQJqlZSR3rz6Xf" style="transform:scale(1, 1);">
-                                        <g id="nFgXbJAZYTjiWqcG" style="clip-path:url(index.html#LBVa8nu3XVmoMcPF);">
-                                            <clipPath id="LBVa8nu3XVmoMcPF">
-                                                <path d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"></path>
-                                            </clipPath>
-                                            <path id="K2ToPRgjBCib6Vo5" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:none;stroke:transparent;"></path>
-                                            <path id="jn8XlvsahaOldddi" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:none;stroke-linecap:butt;vector-effect:non-scaling-stroke;stroke:var(--colorBrown);">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg></div>
-                        </div>
-                        <div id="jhxhEiesgC3EiVAb" style="z-index:11;">
-                            <div id="Xw6YpOtX1hglSuME" style="padding-top:86.875%;">
-                                <div id="N7NmTxkupewr808p"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pan-RIGHT-b442246f-520b-4f1f-9c0b-8f899324ad8f 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                            <div id="W2RbcxTmRlplmjS8" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="kAtQwqwe9FAsf1Si"
-                                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="GbRDfT8u34IeS3GV"
-                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="images/fc365a21736f568201dfebbad41f2873.svg"
-                                                            alt="support gradient icon" loading="lazy"
-                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="EUa2TIaV8wKgIg22" style="z-index:18;">
-                    <div id="kVSBYnAtzSjtgGYm"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="Wnckhy1cJ2dLcIHV"
-                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="XTmqwgJFpNnWMnzq"
-                                style="color:var(--colorWhite);font-family:YAFdJoLIdPI-0;line-height:1.45312727em;text-align:center;letter-spacing:-0.02em;">
-                                <span id="bxRhqJntDHP7aya3" style="color:var(--colorWhite);font-weight:700;">Be
-                                    Supportive</span><br></p>
-                            <p id="cWuYT4QZD221xoqw"
-                                style="color:#e7e9ec;direction:ltr;font-family:YAFdJoLIdPI-0;margin-left:0em;line-height:1.5em;text-align:center;text-transform:none;letter-spacing:-0.02em;">
-                                <span id="Re6XiTXf2KqIbKlN" style="color:#e7e9ec;">Being a team of champions, keep it
-                                    fun.</span><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="GvuMY589khVFwu1B">
-                    <div id="kTrxMbq1MTyii9Ys" style="display:grid;position:relative;">
-                        <div id="VtSfs9ZaMGx0KOoJ" style="z-index:6;">
-                            <div id="NQlT473w2WoLvTd8"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);"><svg
-                                    id="fa8lYFMBWqT25W7h" viewBox="0 0 94.2014 64.0" preserveAspectRatio="none"
-                                    style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
-                                    <g id="NEJ3AC2Ti32YvtLs" style="transform:scale(1, 1);">
-                                        <g id="QnkK995J0BGG1iY8" style="clip-path:url(index.html#m2xHgcfgd6NcOwQR);">
-                                            <clipPath id="m2xHgcfgd6NcOwQR">
-                                                <path d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"></path>
-                                            </clipPath>
-                                            <path id="MhJbgLhOQhyGnGU8" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:none;stroke:transparent;"></path>
-                                            <path id="ulIiDcjXvVST2Nal" d="M0,0 L94.20135038,0 L94.20135038,64 L0,64 Z"
-                                                style="fill:none;stroke-linecap:butt;vector-effect:non-scaling-stroke;stroke:var(--colorBrown);">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg></div>
-                        </div>
-                        <div id="eDl2kBSsMkAkl9o4" style="z-index:15;">
-                            <div id="K5y1a8P6TeH1u0kS" style="padding-top:60.625%;">
-                                <div id="dkNJEAjqnmyGrWcD"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pan-RIGHT-f74ca2da-91ee-4932-9f0e-a77224b708a9 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                            <div id="vAOOpZvZbNUr9GEg" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="sobfpK3WDPYnRO8u"
-                                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="og4ftT7pzvn6dkLa"
-                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="images/4a1b34c646bd861ddbd479246ae2e44b.svg"
-                                                            alt="Map Flat Icon" loading="lazy"
-                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="aFnl3jjahhKY7D8y" style="z-index:19;">
-                    <div id="EmBVr9K7SnaJytup"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="N82hOEFDmVMpWQpl"
-                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="HwG3U0KKGCpJUHzu"
-                                style="color:var(--colorWhite);font-family:YAFdJoLIdPI-0;line-height:1.45312727em;text-align:center;letter-spacing:-0.02em;">
-                                <span id="eDJxxW13bZe9wuAN" style="color:var(--colorWhite);font-weight:700;">Make it
-                                    happen</span><br></p>
-                            <p id="YFvfTIKMSKJhjXcn"
-                                style="color:#e7e9ec;direction:ltr;font-family:YAFdJoLIdPI-0;margin-left:0em;line-height:1.5em;text-align:center;text-transform:none;letter-spacing:-0.02em;">
-                                <span id="CDf9b3i313EEDKQf" style="color:#e7e9ec;">Taking responsibility with our
-                                    purpose-driven mission in mind</span><br></p>
-                        </div>
-                    </div>
-                </div>
+            <div class="p-6 bg-gray-50 rounded-lg shadow-md text-center">
+              <h3 class="text-xl font-semibold mb-2">Don’t Miss Out!</h3>
+              <ul class="list-disc list-inside text-left">
+                <li class="mb-2">
+                  Join a Network of Success: Connect with leading companies and
+                  successful entrepreneurs.
+                </li>
+                <li>
+                  Transform Your Future: Take advantage of unique opportunities
+                  to advance your career or start your own venture.
+                </li>
+              </ul>
             </div>
-        </section><a id="page-4" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="sVZkiV960VS5APIt"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="V7khSVxXI9Kxu7mn"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="m0LBCc0fB8rudh4E" style="z-index:0;">
-                    <div id="EPvgEoi9JNXTWX6b"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="jmOykrvNwEhLD4qF" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="SHBoggqTyKaKa85P"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="text-center mb-8">
+            <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
+            target="_self"
+              class="inline-block bg-blue-600 text-white text-lg font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+              >Enroll Now</a
+            >
+          </div>
+
+          <div class="text-center">
+            <p class="mb-2">Have Questions?</p>
+            <p>
+              Contact us at
+              <a
+                href="mailto:support@acheivers.org"
+                class="text-blue-500 hover:underline"
+                >support@acheivers.org</a
+              >
+              or visit our
+              <a href="#faq" class="text-blue-500 hover:underline">FAQ Page</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Divider Width -->
+      <div class="mt-10"></div>
+
+      <section>
+        <div class="flex gap-10">
+          <div class="flex-1">
+            <h1 class="text-3xl font-semibold text-center mb-6">Our Location</h1>
+
+            <div class="text-center mb-8">
+              <p class="text-lg mb-2">The Acheivers</p>
+              <p>1st Floor, Achiever Org, Benar Road, Jhotwara</p>
+              <p>Jaipur, Rajasthan, 302012</p>
             </div>
-            <div id="wqJwBuBvYsfKmeLL" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="brm42yBbhsOfto73" style="z-index:1;">
-                    <div id="zQiSV4HwxFO3vd6H"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="F5EEkgj3iiJiZ8fz"
-                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="rUPnw22TL1oKJW3A"
-                                style="color:var(--colorBrown);direction:ltr;font-family:YAEahSPMowE-0;margin-left:0em;line-height:1.16324318em;text-align:left;text-transform:none;letter-spacing:0.022em;">
-                                <span id="wNEXrDA38Wuqjkhk" style="color:var(--colorBrown);">Why The Acheivers?</span><span
-                                    id="jlqbtOWYAlqjqqFc" style="color:var(--colorBrown);"> </span><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div id="K8QguiBCJuvWlN3q">
-                    <div id="wDK0Co3vjfYDDxP0" style="display:grid;position:relative;">
-                        <div id="jdYxpb0cAzPUYIcG" style="z-index:3;">
-                            <div id="pSXi6EmoBTSFMt7G" style="padding-top:56.25%;transform:rotate(0deg);">
-                                <div id="JOqVnOa37PgWMoYJ"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="caSs2QUlx3Sbhk0i" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="rYsadbSYknpTTdZv"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="eNRZQqWIszTywIw9"
-                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(118.44444444% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/c88d066954243a57f2b6ed3058642ed2.jpg"
-                                                    alt="Recruitment and Employment Concept" loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="rQ7oGjfqzOnHXVok" style="z-index:4;">
-                            <div id="ADrh15axGWGfZQoE"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="S4UxH38UbWI8oLiH"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="eZ8VyoTdFa183aZe"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.08749864em;text-transform:none;letter-spacing:0em;">
-                                        <span id="KvlL7MnwQiSj14h6" style="color:var(--colorWhite);font-weight:700;">Unmatched
-                                            Recruitment</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="ukpUhsxeam40qQxg" style="z-index:5;">
-                            <div id="lMAKJqziuXmVoBft"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="fbIDFg52zSozE24o"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="vCuyuUjdJsWLvO1J"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.36764505em;text-align:left;text-transform:none;letter-spacing:0em;">
-                                        <span id="voFxqDDepdplMKq6" style="color:var(--colorWhite);">We excel in recruitment with
-                                            a focus on excellence, innovation, and ethics. Join us to access
-                                            unparalleled talent and opportunities.</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="hqJIOjx9Raosq09Z">
-                    <div id="JsV9KAx04i9pcsgp" style="display:grid;position:relative;">
-                        <div id="MGtrAsJ15aLVLCRQ" style="z-index:7;">
-                            <div id="La5w8oUieoUPkXtl" style="padding-top:56.25%;transform:rotate(0deg);">
-                                <div id="KTiocT6i9uKApt1n"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="QNkQUxAK49UGdS99" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="Tq22tW7Htjga7YP0"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="g2NxBYJwDWpZ6ADi"
-                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(177.77777778% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/9c16a4d2384c04fd9791221d8c67c708.jpg"
-                                                    alt="Concept of new business opportunities" loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="F05K4U7OF1cmQYhx" style="z-index:8;">
-                            <div id="XsLdzOcATJs6a9yg"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="FYZn0qBr5OOM64CR"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="j62PWhpZ5ra02AAg"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.08749864em;text-transform:none;letter-spacing:0em;">
-                                        <span id="bmCl6GpDJSWxOLaW" style="color:var(--colorWhite);font-weight:700;">Transparent
-                                            Opportunities</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="wWm0NU6WjWu9ToUd" style="z-index:9;">
-                            <div id="EsZ7jTlgdWopj9sX"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="hFVMuVoTvVbrShSe"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="tI7zgLXdjAezcfoT"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.36764505em;text-align:left;text-transform:none;letter-spacing:0em;">
-                                        <span id="E6idmrQaMAYGcelk" style="color:var(--colorWhite);">We excel in recruitment with
-                                            a focus on excellence, innovation, and ethics. Join us to access
-                                            unparalleled talent and opportunities.</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="KlGdmzEWoPEblBeI">
-                    <div id="dAYYo1lEACtnOmjv" style="display:grid;position:relative;">
-                        <div id="MZnWggc48HQqcBme" style="z-index:11;">
-                            <div id="q4REaZsEXNM0LvOP" style="padding-top:56.25%;transform:rotate(0deg);">
-                                <div id="Jjbz7CQ4VxBX5Qpm"
-                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                    <div id="Fg9c6VYFho3xDUb4" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="fD9AWbVYEQD2dlZy"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="OkBvl06RejHX1jG8"
-                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(115.77777778% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/8b477b60b338914f6f7c2a4a99a2a5af.jpg"
-                                                    alt="Ethical or legal symbol. Businessman turns wooden cubes and changes the word 'legal' to 'ethical' on a beautiful white table, white background. Business and ethical or legal concept. Copy space."
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="O7z9eYHtRHAJjAh5" style="z-index:12;">
-                            <div id="CLgct2r8KmxRsqta"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="B7wRdcFh2XpBym30"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="xdTZdEehqk2M48Wv"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.08749864em;text-transform:none;letter-spacing:0em;">
-                                        <span id="kFT52tfWoLwhO9uO" style="color:var(--colorWhite);font-weight:700;">Ethical
-                                            Practices</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="m10EkWVPRhgAf89F" style="z-index:13;">
-                            <div id="q5ycUtQSCHIJYqBn"
-                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="GxCQVmRKKHM78mCn"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="T5Vzopyhjh7KuqBG"
-                                        style="color:var(--colorWhite);direction:ltr;font-family:YAFcfuZZeUg-0;margin-left:0em;line-height:1.36764505em;text-align:left;text-transform:none;letter-spacing:0em;">
-                                        <span id="upcoxnkNCeaOFyeY" style="color:var(--colorWhite);">Integrity, transparency, and
-                                            fairness are our core values. We practice ethical recruitment that benefits
-                                            everyone involved. The Acheivers is dedicated to helping you build a
-                                            successful career.</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="flex flex-col items-center mb-8">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-phone-alt text-blue-600 text-2xl mr-2"></i>
+                <a
+                  href="tel:+917231873475"
+                  class="text-lg text-blue-500 hover:underline"
+                  >+91 7231873475</a
+                >
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-blue-600 text-2xl mr-2"></i>
+                <a
+                  href="mailto:support@acheivers.in"
+                  class="text-lg text-blue-500 hover:underline"
+                  >support@acheivers.org</a
+                >
+              </div>
             </div>
-        </section><a id="why-us" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="kHZfRgay6k6jtbTG"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="QMyBf8wooGmtrpn6"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="WkrkVeFZvugiCM7U" style="z-index:0;">
-                    <div id="rxLzVAIRfdydMpkP"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="TolDOzLYkS7CjlSY" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="s4IaqozxrKRarsP0"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="flex-1">
+            <h2 class="text-2xl font-semibold text-center mb-4">
+              Find Us on the Map
+            </h2>
+            <div class="w-full h-64 rounded">
+              <iframe  class="w-full h-full border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14226.506693427822!2d75.72651331229285!3d26.94704730404793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db35295964ba1%3A0x4115afea77b359a7!2sThe%20Digital%20Achiever!5e0!3m2!1sen!2sin!4v1725568812694!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div id="pc1ij5kvVkDd7UD1" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="IMvoaUfx1GJnHF2s" style="z-index:1;">
-                    <div id="YmJlOGYShFO3OFLa" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-8bd286bc-57c7-4a08-b85e-64a0a70734ff 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="nS0Ssl7sPTHravXs"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="udFGNbk7nnAU0j9J"
-                                        style="color:var(--colorBrown);direction:ltr;font-family:YAEahSPMowE-0;margin-left:0em;line-height:1.16324318em;text-align:left;text-transform:none;letter-spacing:0.022em;">
-                                        <span id="PKaiLotxs456cO8j" style="color:var(--colorBrown);">What We Do</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="YGT65yySSfRQFzHy" style="z-index:3;">
-                    <div id="JY3tXy8sDctndEzR" style="padding-top:92.18181818%;">
-                        <div id="iz7HG3GHctYuHeRx" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-LEFT-1141986b-184c-4ce7-a9e3-6f49f8f866bb 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <div id="SQLvA40eyK5gBo0V" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="vRHuxJwAqb7vmlPE"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="sadeFIM4DH5FTJfe"
-                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/d2f70bc3a9044cabe2738bfc5563ea86.svg"
-                                                    alt="Minimal Line Art Business Roles Marketing Specialist"
-                                                    loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="D5fUILve8PkF42dS" style="z-index:2;">
-                    <div id="kPNB2JUAYt8gTZjC" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-41ec6c64-9f02-481b-95de-e0e919d932e0 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="RNLaLeBNf87cVidy"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="iuAzHNwMwWJCUANR"
-                                        style="color:var(--colorWhite);;line-height:1.48325895em;letter-spacing:0.037em;">
-                                        <span id="kT4vRIcFNqgQGVhx" style="color:var(--colorWhite);font-weight:700;">At The Acheivers, we specialize in corporate talent outsourcing, placing candidates in
-                                            MNCs and startups. </span><br></p>
-                                    <p id="q6jabvtK4JO0Rh7s"
-                                        style="color:var(--colorWhite);;line-height:1.48325895em;letter-spacing:0.037em;white-space:pre;">
-                                        <br></p>
-                                    <p id="NRSVY2shDmzsnzvx"
-                                        style="color:var(--colorWhite);;line-height:1.48325895em;letter-spacing:0.037em;">
-                                        <span id="U8qoDUSIOlUJ9DU5" style="color:var(--colorWhite);font-weight:700;">We offer a
-                                            variety of roles, including but not limited to IT, Non-IT, ECE, Mechanical,
-                                            Civil, HR, Marketing, and Finance. </span><br></p>
-                                    <p id="h6U8L66fAErFFCIN"
-                                        style="color:var(--colorWhite);;line-height:1.48325895em;letter-spacing:0.037em;white-space:pre;">
-                                        <br></p>
-                                    <p id="oWosQRwYhWHIxn0A"
-                                        style="color:var(--colorWhite);direction:ltr;;margin-left:0em;line-height:1.48325895em;text-transform:none;letter-spacing:0.037em;">
-                                        <span id="eFEc9Nywbwj7Q5fU" style="color:var(--colorWhite);font-weight:700;">Additionally,
-                                            we support aspiring entrepreneurs in starting profitable
-                                            businesses.</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><a id="join-us" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="ne53dGr6k9ktLgBl"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="GsyVaZQxuNJd8uV9"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="jbbNSqKokPeO1nmZ" style="z-index:0;">
-                    <div id="OaNMFtXV1I7H3y0l"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="SqnNyDDoVpMgZahp" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="DCS3I6ghZiy2FeVt"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="tpxPCDaafiLnpPiL" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="vo8QOKeWqV2H1iEm">
-                    <div id="MqmjIKiooxE9kjpU" style="display:grid;position:relative;">
-                        <div id="oPdOv3U9cAt4OJDU" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="RKcHNgyBJXOOlAIl" style="z-index:6;">
-                                <div id="lkEBA92sOVH3jPYm" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorGrey)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-LEFT-5b4b1398-7cd1-49cf-9636-71764f0721d6 500ms 100ms both paused;">
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="HrA1LDZe9RwV2uVN" style="z-index:7;">
-                                <div id="WiyXkINcDgNoJcgB" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-LEFT-f3732289-2778-4ad9-8174-cb9bee5084b3 500ms 100ms both paused;">
-                                            <div id="otz5vTRnUCbtkLZy"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="D4HRikbkkIP9YHF3"
-                                                    style="color:#000000;font-family:YAEnTI0o408-0;line-height:1.00790647em;text-align:center;text-transform:none;letter-spacing:0em;">
-                                                    <span id="Ir5foooTJ0rQa2G2" class="text-[var(--colorWhite)]"
-                                                        style="font-weight:700;">At The Acheivers</span><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="KP4ceP1J1JhfUcrq">
-                    <div id="pB6eDg5ya24Sq6nc" style="display:grid;position:relative;">
-                        <div id="wOo8plyk6ISmEAnC" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="ySweElVPHxQHLdre" style="z-index:2;">
-                                <div id="VHEbibE5ixFBYXQ7" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorBrown)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-LEFT-6675eab2-4fe5-4ad2-a2bf-fb643f1afde9 500ms 100ms both paused;">
-                                           </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="T0kg3CZf2rp2tzEi" style="z-index:4;">
-                                <div id="hDX5OfCxVj0GQjYQ" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-LEFT-91ea9936-e2ce-4084-86a9-ace27e47a226 500ms 100ms both paused;">
-                                            <div id="h3DNs1OXoFRQsjhz"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="cQhTQkT9W692tGcl"
-                                                    style="color:var(--colorWhite);font-family:YACgEaSMfJc-0;line-height:0.93832887em;text-transform:uppercase;">
-                                                    <span id="Esm1BH9cYluE0igb" style="color:var(--colorWhite);">We are looking
-                                                        for:</span><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="TL2SWTJH0yClkz1Q" style="z-index:3;">
-                                <div id="JjaIU0mkyvqKy0s7" style="padding-top:100%;">
-                                    <div id="OKn0xOHI7TuY3QsL"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-LEFT-37b3dd80-8419-49f0-b7b2-1c626691d80b 500ms 100ms both paused;">
-                                                <div id="wxuo2U2kIpUpGDMB" style="width:100%;height:100%;opacity:1.0;">
-                                                    <div id="SmEY7nirYE6UiZ7S"
-                                                        style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                        <div id="rJq2zJcGVglMwrs0" class="scale_rotated_fill_v2"
-                                                            data-aspect-ratio="1"
-                                                            style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                            <img src="images/39545a0a4a99079c7527dbfc41ee4b46.svg"
-                                                                alt="Download Outline Icon" loading="lazy"
-                                                                style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(-90deg);">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="x5npA2DMWB191MOP">
-                    <div id="Eue42sasHpsYx9hP" style="display:grid;position:relative;">
-                        <div id="axgzHkxQBLIjX7RG" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="oD6uvze1vlfP6X8I" style="z-index:29;">
-                                <div id="JUqTcQiEMme7vIT6" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorBrown)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-LEFT-61d9299c-b343-4a7b-9aec-77ade0c9e65f 500ms 100ms both paused;">
-                                          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="qOiJVyFkUGAlKdHr" style="z-index:30;">
-                                <div id="ZxL8WI9ra2avaLsu" style="padding-top:100%;">
-                                    <div id="xWebFHTMBxP7czQq"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-LEFT-8ca42e92-5dd4-4f3d-b704-36f9e0527906 500ms 100ms both paused;">
-                                                <a id="jKnbtHbDjmifFKx6" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="TLGHZri0KvFJbcRf"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="fFYBJ3RwzTB3EtYM"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="hv3gjfegrnRpUZRw"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="LbJoaSZkeeGjgyVt" style="z-index:31;pointer-events:none;">
-                                <div id="hEsnCyu32wKfukW1" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-LEFT-564fe16f-5f46-490d-8ff3-d7578daa3ecc 500ms 100ms both paused;">
-                                            <div id="hmXs3w5ni3RsgsNt"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="RkBdvzzIXHBfCVgG"
-                                                    style="color:#f7f7f7;font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="qhibyZCCo73UJeIe" href="/#page-7"
-                                                        style="color:#f7f7f7;pointer-events:all;"
-                                                        target="_self">Recruitment</a><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="pEgwrFCNIbo27myB">
-                    <div id="IWMuOAqxoaQiqs0G" style="display:grid;position:relative;">
-                        <div id="I3SIEO6OBGF6MAqn" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="LsZI0EluhtlLr9du" style="z-index:9;">
-                                <div id="THZhGMLdYjCeit9g" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorGrey)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-LEFT-b936c87e-e467-4752-bc12-8d7b4cd7fa66 500ms 100ms both paused;">
-                                           </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="fXEkZXV2pBT7FqAn" style="z-index:10;">
-                                <div id="qkR9ITvGdZ3EyO9S" style="padding-top:100%;">
-                                    <div id="kklOFmMHezGqQcJm"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-LEFT-00b01ff9-ac21-4763-9126-1e25a014ba91 500ms 100ms both paused;">
-                                                <a id="wqZ3Ai8YJ7nNAfik" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="Eucu3JCij2TSHobm"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="j7iSJB94zQiaKMj3"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="IIIDENfksEmIsM3N"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="sYzNZRNNyfeLJW76" style="z-index:11;pointer-events:none;">
-                                <div id="WrPLnhDsibnbZfau" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-LEFT-6f84469e-d323-4231-ac73-134cee425bae 500ms 100ms both paused;">
-                                            <div id="PiJC7zIZDNREZyJ2"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="PgVC9ubf7f7As24A"
-                                                    style="color:#000000;font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="ro0okhZBWIq8aA48" href="/#page-7"
-                                                        style="color:#000000;pointer-events:all;" target="_self">Team
-                                                        Management</a><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="fgzc7ZNmyWQtIZjj">
-                    <div id="zWvUTcrcQcXkUYob" style="display:grid;position:relative;">
-                        <div id="a3iaGeIc7NhvSoDa" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="XXCKUcF7m89EOekF" style="z-index:13;">
-                                <div id="QOKTV5QMuidCzYAl" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorGrey)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-e5dddadd-9851-489b-9dfa-cdaba19aa8dc 500ms 100ms both paused;">
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="AUxTbfJmpUaZxRz6" style="z-index:14;">
-                                <div id="PlxRrtFYD85GKjid" style="padding-top:100%;">
-                                    <div id="zDDfGj2U6LLh43JF"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-RIGHT-e40132b5-dfce-452c-8395-fd6a537d6ce9 500ms 100ms both paused;">
-                                                <a id="OaQadAofMzX1bMuz" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="YLbZVV2X8uMLyHPB"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="lwmxWjUxct4Q88kn"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="kAFux71Mjh3kNLC4"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="swTUuRAf1agDrgO7" style="z-index:15;pointer-events:none;">
-                                <div id="GtLzDPR95EC6mL5k" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-ecd6d740-5846-4b3f-b53d-30ab54fc9e77 500ms 100ms both paused;">
-                                            <div id="q55heKVEsqb6KjsC"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="E1kMMxunXTyLLr09"
-                                                    style="color:#000000;font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="AIcc3r7J9wtrSb4u" href="/#page-7"
-                                                        style="color:#000000;pointer-events:all;" target="_self">Social
-                                                        Optimization</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="j0JzzGGxmXiawLml">
-                    <div id="UFKQQ4iSXNZGq6zP" style="display:grid;position:relative;">
-                        <div id="EH2jTWfuDEG33Eoo" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="N4CUNu93kHw9GB2k" style="z-index:17;">
-                                <div id="HhJfya2lPnPemK49" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorBrown)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-79a64a0f-b3b4-42d4-b635-2bbd775c5d4d 500ms 100ms both paused;">
-                                          </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="POGPYbAbzz5dlBzv" style="z-index:18;">
-                                <div id="whOShQPVp6vG8mbe" style="padding-top:100%;">
-                                    <div id="Gskkd2v4NkriAiat"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-RIGHT-a5fdd757-2e11-454f-9d30-336a7df672f2 500ms 100ms both paused;">
-                                                <a id="JQJKxIoVMJQoBZCA" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="IJh43Xqg07rCaRCP"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="L8BBmwxeQwWX3LYn"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="oPL7pJEqyEyMKG9J"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="eAg529qWKwqELq6t" style="z-index:19;pointer-events:none;">
-                                <div id="KX8ap8ijIVTB3tSZ" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-6774682f-c936-41ba-b3a8-f95bd26cc6a9 500ms 100ms both paused;">
-                                            <div id="EORRPzo7jdDGgT91"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="d1G19ssszySnsBdc"
-                                                    style="color:#f7f7f7;font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="lhNC6zyqs9tsMaox" href="/#page-7"
-                                                        style="color:#f7f7f7;pointer-events:all;" target="_self">IT
-                                                        Analyst</a><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="rjPIvkqKsekSJpRT">
-                    <div id="fpnEOoVY3NwVGZS3" style="display:grid;position:relative;">
-                        <div id="PkXsAKlS5jW6jvA2" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="fc4QRBoaBXQqRxHm" style="z-index:21;">
-                                <div id="FuTpRqH4hNFVvisg" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated bg-[var(--colorBrown)] rounded-[20px]"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-d636fc1f-f85d-48cd-8969-5c5411375bd9 500ms 100ms both paused;">
-                                          </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="VSfgSKuzPx8pb5ca" style="z-index:22;">
-                                <div id="yvH1msGiGdAUci1e" style="padding-top:100%;">
-                                    <div id="WFYixSbWyosPe2QO"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-RIGHT-1c525ab7-eb86-4afa-9a38-087fba44df5c 500ms 100ms both paused;">
-                                                <a id="G56H7uvII8lpa3fJ" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="kadZKRaD5PyCIRLA"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="dGSXxLFGTp5A2Dx3"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="UvuStcQG81aNDz5N"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="dVsVojAn1LLR6Yim" style="z-index:23;pointer-events:none;">
-                                <div id="jQ6iHe9G2AJ2r2es" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-ef8a6038-73cc-489e-b16a-d79ff415915d 500ms 100ms both paused;">
-                                            <div id="ElkDzJbiNKTgT3zC"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="bmeHI0RFKbHD9rEw"
-                                                    style="color:#f7f7f7;font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="LADMX5IkByapxn5j" href="/#page-7"
-                                                        style="color:#f7f7f7;pointer-events:all;" target="_self">Data
-                                                        Entry</a><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="Ikp6TrVvKs4UihWp">
-                    <div id="YKiqVLtBm7G0XpSf" style="display:grid;position:relative;">
-                        <div id="XGc4wbLyphgj0lpr" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
-                            <div id="bPGq0i8CSCE8wsbx" style="z-index:25;">
-                                <div id="kr8kF935y7wBX0Ww" style="padding-top:150%;">
-                                    <div id="saFfZBKU2MLtsJsY"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated bg-[var(--colorGrey)] rounded-[20px]"
-                                                style="width:100%;height:100%;animation:pop-RIGHT-9a642326-3bfc-4093-9d82-346986789529 500ms 100ms both paused;">
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="n44pjP5cNP6vcl3l" style="z-index:26;">
-                                <div id="f6AIx9MKKP24wsNQ" style="padding-top:100%;">
-                                    <div id="CHEDpinXMiCt2Ftj"
-                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                                        <div class="animation_container" style="width:100%;height:100%;">
-                                            <div class="animated"
-                                                style="width:100%;height:100%;animation:pop-RIGHT-2772ad4c-c95e-4afb-b9a8-ec575662da0d 500ms 100ms both paused;">
-                                                <a id="fXjVukEqPr8MgP5y" href="/#page-7"
-                                                    style="pointer-events:all;" target="_self">
-                                                    <div id="EjLAsPIXDdD7LkzC"
-                                                        style="width:100%;height:100%;opacity:1.0;">
-                                                        <div id="K8zpJuVleSduSfbT"
-                                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                            <div id="yYKDSI31yoFKm1jY"
-                                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                                <img src="images/f092bfb97b20969347ee549752ce6b42.svg"
-                                                                    alt="Add Button Icon" loading="lazy"
-                                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="ufTtDjrSwPecbKpv" style="z-index:27;pointer-events:none;">
-                                <div id="Pa7dDL0L4bqedaCB" style="box-sizing:border-box;width:100%;height:100%;">
-                                    <div class="animation_container" style="width:100%;height:100%;">
-                                        <div class="animated"
-                                            style="width:100%;height:100%;animation:pop-RIGHT-ca3df7c3-51d3-4865-b6ee-73889989bb8f 500ms 100ms both paused;">
-                                            <div id="NsOldva2WtEnMYPs"
-                                                style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                                <p id="GzgyWFN6hPKnxM0H"
-                                                    style="color:var(--colorWhite);font-family:YAEnTI0o408-0;line-height:1.00774621em;text-transform:none;letter-spacing:0em;">
-                                                    <a id="HTAmqyqOj5jZSN8T" href="/#page-7"
-                                                        style="color:var(--colorWhite);pointer-events:all;" target="_self">Content
-                                                        Writer</a><br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><a id="page-7" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="m4gi7kOsdc2VtLkB"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="qyKskV1OOf9Kh93M"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="FDMdDRMpj3zo0ZDy" style="z-index:0;">
-                    <div id="aoxXi0sBC0gy25rM"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="LvercQ7guSUoHmEL" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="WgviPxJAResTfZpy"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="TxCE2XicfgcaVgli" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="pKKGWKjDCTPYQsUU">
-                    <div id="RsPuvNtOLqVvW8cG" style="display:grid;position:relative;">
-                        <div id="NZbu2R42UZ4oh6eJ" style="z-index:3;">
-                            <div id="YOfG0vaFaO2RJewO" style="box-sizing:border-box;width:100%;height:100%;">
-                                <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated"
-                                        style="width:100%;height:100%;animation:rise-LEFT-c05b87cb-8b52-46a5-ba2a-eab99ab7a277 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                        <div id="sJDFiwhW045BmU50"
-                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="IPXl4TnqXzPb1eJl"
-                                                style="color:var(--colorBrown);direction:ltr;font-family:YAEahSPMowE-0;margin-left:0em;line-height:1.15625542em;text-align:left;text-transform:none;letter-spacing:0.022em;">
-                                                <span id="GhWMzGnmjWTpt3Lr" style="color:var(--colorBrown);">Elevate Your
-                                                    Career</span><span id="GaRiAyJYFwlPhj6W"
-                                                    style="color:var(--colorBrown);white-space:pre-wrap;"> </span><span
-                                                    id="xVvddepbGDhFMOlf" style="color:var(--colorBrown);">with </span><span
-                                                    id="bNFGDOi0VS4xG4U6" style="color:var(--colorWhite);">The Acheivers</span><span id="nHpWb6tYIveSXNoh"
-                                                    style="color:var(--colorBrown);">!</span><br></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="V2DsW9mcJrmdNEKg" style="z-index:4;">
-                            <div id="pH7n0OG1HJIgbV6z" style="box-sizing:border-box;width:100%;height:100%;">
-                                <div class="animation_container" style="width:100%;height:100%;">
-                                    <div class="animated"
-                                        style="width:100%;height:100%;animation:rise-LEFT-49c5351c-26f9-4cb2-89c5-f3119751c17b 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                        <div id="Bmff2rK2g7cpLSwP"
-                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="LRBZbIVctyrw5Gzj"
-                                                style="color:var(--colorWhite);direction:ltr;;margin-left:0em;line-height:1.49999118em;text-transform:none;letter-spacing:0.037em;">
-                                                <span id="aDvXRYGtz2MdtUrN"
-                                                    style="color:var(--colorWhite);font-weight:700;">Unlock your potential with
-                                                    The Acheivers. Discover key strategies to advance your career and
-                                                    seize hidden opportunities.</span><br></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="Sz2UIIUOTZjqdsaw" style="z-index:1;">
-                    <div id="Hge0UkKz2GdhpGd8" style="padding-top:100%;">
-                        <div id="qoMqe7ETM0y6eRHq" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-RIGHT-c9f5ecd2-fb06-491d-9d57-d265fda66a98 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <svg id="glolNc4SRm4uKhTS" viewBox="0 0 500.0 500.0"
-                                        style="width:100%;height:100%;opacity:1.0;overflow:hidden;position:absolute;top:0%;left:0%;background:url('data:image/png;base64,');">
-                                        <g id="ZBURS98f8wXuqx2B" style="transform:scale(1, 1);">
-                                            <foreignObject id="U6RxxyTdvCFNq03G" style="width:500px;height:500px;">
-                                                <div id="XakVW63Xj5VdR9ni"
-                                                    style="clip-path:path('M0,468.8999939 L0,31.10000038 C0,13.89999962 13.89999962,0 31.10000038,0 L468.99999428,0 C486.1000061,0 500,13.89999962 500,31.10000038 L500,468.99999428 C500,486.19999504 486.10000038,500.09999466 468.89999962,500.09999466 L31.10000038,500.09999466 C13.89999962,500 0,486.1000061 0,468.8999939 Z');">
-                                                    <div id="WbvkMaJ0Z5vrXXL2"
-                                                        style="transform:scale(1, 1);transform-origin:250px 250.5px;">
-                                                        <video id="jFs68wFXcidpD5gi"
-                                                            src="videos/6cd5b4d0b8eb196185cbeae2ee5f9aa5.mp4"
-                                                            playsinline="" preload="none" autoplay="" muted="" loop=""
-                                                            data-controls-width="100%" data-controls-height="100.2%"
-                                                            data-controls-top="0%" data-controls-left="0%"
-                                                            style="transform:translate(-194.53333333px, 0px) rotate(0deg);width:889.06666667px;height:500.1px;display:block;opacity:1.0;object-fit:fill;"></video>
-                                                    </div>
-                                                </div>
-                                            </foreignObject>
-                                        </g>
-                                    </svg></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <a id="contact-us" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="acBFDfuedNUSvjKR"
-            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="LD5LdstoGqUDasyJ"
-                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
-                <div id="L57rNj3Rewaidliz" style="z-index:0;">
-                    <div id="iK6vhumxrtLbqWeQ"
-                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="dpA5VxVO3cKHah54" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="orfquwxcoHpljHuH"
-                                style="opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="TdL3rfV4E9tX2Nfp" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-                <div id="XPQGhJ7NkosLQNHN" style="z-index:9;">
-                    <div id="xa6Lv1tCVzwEvYIs" style="padding-top:43.39622642%;">
-                        <div id="lwEWmVrspB0L0E1J" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-LEFT-4442573e-f3ef-476c-8664-254af488243f 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <div id="EXtSCCA6xznOTY0u" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="tPZRHWiG1rZtF2PJ"
-                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="F1WCqbpBXtrtqFhq"
-                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(230.43478261% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="images/0573c364540f8913687beb2393bcbbc7.png" loading="lazy"
-                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="hJrBZIloaTErzMHY" style="z-index:2;">
-                    <div id="rkrsZFa15lGx09pg" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-6eb25f74-8700-4cd4-b79d-8022045e12d4 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="Pl19ggzONRiBv6Q1"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="CfNBEBappCRj89S1"
-                                        style="color:var(--colorBrown);font-family:YAEahSPMowE-0;line-height:1.16071636em;text-align:center;text-transform:none;letter-spacing:0.022em;">
-                                        <span id="F1dyuouWw4ZC60sP" style="color:var(--colorBrown);">Connect </span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="dGNuR8f6UglOaA9E" style="z-index:3;">
-                    <div id="GBkv1fCMQXAAwdGr" style="padding-top:136.8159204%;">
-                        <div id="Ms3bDq2qb4cG5GGP" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-RIGHT-013d6b01-9777-4adf-adb3-2dd76cd5a3f4 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="atenLbDseWYwaeny" target="_blank" rel="noopener"
-                                        href="https://maps.app.goo.gl/RapxyayyVgmaBPyK9?g_st=ic"
-                                        style="pointer-events:all;" data-interstitial-link="">
-                                        <div id="KRi6jQ2jdADlJAwZ" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="dmEhxGDZ5rSx6dqL"
-                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="gFfIuYwArO4NcYbB"
-                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="images/26364ca04960f04550e38ba560cf9d66.svg"
-                                                        alt="Map Marker Icon" loading="lazy"
-                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="KaJ8Wei0qF5N7cSG" style="z-index:4;">
-                    <div id="wCoUaAWUgKYt7DZS" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-e7b0527a-0f5c-4091-9c01-66362f02a401 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="To2lGtA5WQsUo991"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="cZc4uoa1r3HVG2Rb"
-                                        style="color:var(--colorWhite);;line-height:1.54166024em;text-align:center;text-transform:none;letter-spacing:0.06em;">
-                                        <span id="mFXETap7a81kYwNu" style="color:var(--colorWhite);">The Acheivers, 1st floor , Achiever org, benar road , Jhotwara , Jaipur , Rajasthani, 302012</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="iQSDB95uPTo1786Y" style="z-index:5;">
-                    <div id="DlNkQZKpeEOdlanZ" style="padding-top:137.2212693%;">
-                        <div id="vpf7j9WAwp7WGQM7" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-RIGHT-78e0caf1-9db9-4a34-beb2-e951aae9e4ed 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="JvxvV0sNvdh4hK5r" target="_blank" rel="noopener" href="tel:+917231873475"
-                                        style="pointer-events:all;">
-                                        <div id="kyrewy6wSD3iNZBc" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="hRt4MJ1UpwvsGEMS"
-                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="JhSubxqP8vHNiItk"
-                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="images/33b7b21e51ef722823a471c64675cda8.svg"
-                                                        alt="Telephone Glyph Icon" loading="lazy"
-                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="TUWO3AUviHJ9PD1v" style="z-index:8;">
-                    <div id="TG7hyCUbjyHlxG15" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-59deb74b-083b-4cd7-9804-3e42408e5b96 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="nAStcfUg95PUrbnw"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="NcnbeMh4N5MDuqrS"
-                                        style="color:var(--colorWhite);;line-height:1.54166024em;text-align:center;text-transform:none;letter-spacing:0.06em;">
-                                        <a id="IWQRi30u3vqjsihU" target="_blank" rel="noopener" href="tel:+919133102056"
-                                            style="color:var(--colorWhite);pointer-events:all;">+91 </a><span
-                                            id="g6gbghnA5VueCUJL" style="color:var(--colorWhite);">93470 14944</span><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="xX3Qt2uV1D7ycpds" style="z-index:6;">
-                    <div id="YmUFunGLACImE9v4" style="padding-top:64.36363636%;">
-                        <div id="PpNM42Dh6F4IpTlS" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-RIGHT-5a8cf789-9b80-4671-93cf-8c093d46089c 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="ZrjEXW1Jp0UXMJEx" target="_blank" rel="noopener"
-                                        href="mailto:support@acheivers.in" style="pointer-events:all;">
-                                        <div id="hfoTnsgwNQOxtSlS" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="e00ZNILWmke1uMXK"
-                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="SwreRru7koHrR4LL"
-                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="images/99ceca0f356e7abcc60ae51a2209ae44.svg"
-                                                        alt="Mail Icon" loading="lazy"
-                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="fOyZZQTgeKeWgXdp" style="z-index:7;">
-                    <div id="NJ2ylaCJDeSSi9kI" style="box-sizing:border-box;width:100%;height:100%;">
-                        <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated"
-                                style="width:100%;height:100%;animation:rise-RIGHT-217bd843-7468-4e95-a5e4-29d7e5c49901 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="qEfeSqk25yLHSUu8"
-                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="c8JS2xFKPxgc9zSj"
-                                        style="color:var(--colorWhite);;line-height:1.54166024em;text-align:center;text-transform:none;letter-spacing:0.06em;">
-                                        <a id="x6HwUtA63BwYxS2o" target="_blank" rel="noopener"
-                                            href="mailto:support@acheivers.in"
-                                            style="color:var(--colorWhite);pointer-events:all;">support@acheivers.in</a><br>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="FB2gXK6rkyEo7XO0" style="z-index:1;">
-                    <div id="ONRtXEWgDFBnpEEw" style="padding-top:100%;">
-                        <div id="bMccoQpmTxPZ2ixs" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
-                            <div class="animation_container" style="width:100%;height:100%;">
-                                <div class="animated"
-                                    style="width:100%;height:100%;animation:rise-RIGHT-8041280b-390f-4b15-95ee-5e9c112ed463 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                    <a id="gG9Ecbc32BUoaiV2" target="_blank" rel="noopener"
-                                        href="https://www.linkedin.com/company/the-golden-rise/"
-                                        style="pointer-events:all;" data-interstitial-link="">
-                                        <div id="dldASYI7bVfP0xCo" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="gwDxXkn3yhDuZBNE"
-                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="SVo6zbS4eeUOLYiL"
-                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="images/cb1788d9695fa4d1c466c120719909a9.svg"
-                                                        alt="In Blue Logo Vector" loading="lazy"
-                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <script src="js/a7bdac05b24347a77bc2ba39247eaaf9c12b11b8b5b7c8ffcd473c8cd1f4ef7d.js" async=""
-            nonce="b99baff6-14c4-4e66-a24c-c60b7437e388"></script>
-        <script src="js/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js" async=""
-            nonce="b99baff6-14c4-4e66-a24c-c60b7437e388"></script>
-        <script src="js/01c7ccc81a1289dedbdae34afe3477f60b4bd37c9b8a15eec37e59453e6d6fd3.js" async=""
-            nonce="b99baff6-14c4-4e66-a24c-c60b7437e388"></script>
-        <script src="js/388fb330498371d4935abbff11d34d4c30842ca3c4a128cdd290d29db98acb41.js" async=""
-            nonce="b99baff6-14c4-4e66-a24c-c60b7437e388"></script>
-        <script src="js/781b7c2778641097cc201ef02652a4376abe12baf4b506965843770004e198e1.js" async=""
-            nonce="b99baff6-14c4-4e66-a24c-c60b7437e388"></script>
+          </div>
+        </div>
+      </section>
+
+      <!-- Divider Width -->
+      <div class="mt-10"></div>
+
+      <!-- Footer -->
+      <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div
+          class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+        >
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2023
+            <a href="/" class="hover:underline">Acheivers Org</a
+            >. All Rights Reserved.
+          </span>
+          <ul
+            class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+          >
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
-      
     <script src="js/text-animation.js"></script>
-    <script src="js/carousel-script.js"></script>
-    
-</body>
-
+  </body>
 </html>
