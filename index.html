@@ -19,10 +19,22 @@
     <!-- text animation script -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-    <!-- Google Anlytics -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-J0EGFNS2GT"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-J0EGFNS2GT");
+    </script>
   </head>
   <body>
-
     <div class="max-w-screen-xl mx-auto px-4">
       <!-- Navbar -->
       <nav class="bg-white border-gray-200">
@@ -36,11 +48,11 @@
           </a>
           <div>
             <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
-            target="_self"
-            class="inline-block bg-blue-600 text-white text-md font-semibold py-1.5 px-3 rounded-lg hover:bg-blue-700 transition duration-300 md:hidden"
-            >Enroll Now</a
-          >
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
+              target="_self"
+              class="inline-block bg-blue-600 text-white text-md font-semibold py-1.5 px-3 rounded-lg hover:bg-blue-700 transition duration-300 md:hidden"
+              >Enroll Now</a
+            >
             <button
               data-collapse-toggle="navbar-default"
               type="button"
@@ -65,7 +77,6 @@
                 />
               </svg>
             </button>
-
           </div>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul
@@ -260,7 +271,11 @@
             href="#"
             class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           >
-            <img src="images/empowernment.webp" class="object-cover mb-3" loading="lazy"/>
+            <img
+              src="images/empowernment.webp"
+              class="object-cover mb-3"
+              loading="lazy"
+            />
             <h5
               class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
@@ -449,9 +464,8 @@
         </ol>
       </section>
 
-       <!-- Divider Width -->
-       <div class="mt-10"></div>
-       
+      <!-- Divider Width -->
+      <div class="mt-10"></div>
 
       <section>
         <div>
@@ -513,8 +527,8 @@
 
           <div class="text-center mb-8">
             <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
-            target="_self"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc4wrc0_0e3RtkUm2G2HIJObnpa5-2znm1tVI9nNmGzVUNhOw/viewform?usp=pp_url"
+              target="_self"
               class="inline-block bg-blue-600 text-white text-lg font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
               >Enroll Now</a
             >
@@ -535,14 +549,16 @@
           </div>
         </div>
       </section>
-  
+
       <!-- Divider Width -->
       <div class="mt-10"></div>
 
       <section>
         <div class="flex md:flex-row flex-col-reverse gap-10">
           <div class="flex-1">
-            <h1 class="text-3xl font-semibold text-center mb-6">Our Location</h1>
+            <h1 class="text-3xl font-semibold text-center mb-6">
+              Our Location
+            </h1>
 
             <div class="text-center mb-8">
               <p class="text-lg mb-2">The Acheivers</p>
@@ -574,7 +590,14 @@
               Find Us on the Map
             </h2>
             <div class="w-full h-64 rounded">
-              <iframe  class="w-full h-full border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14226.506693427822!2d75.72651331229285!3d26.94704730404793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db35295964ba1%3A0x4115afea77b359a7!2sThe%20Digital%20Achiever!5e0!3m2!1sen!2sin!4v1725568812694!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                class="w-full h-full border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14226.506693427822!2d75.72651331229285!3d26.94704730404793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db35295964ba1%3A0x4115afea77b359a7!2sThe%20Digital%20Achiever!5e0!3m2!1sen!2sin!4v1725568812694!5m2!1sen!2sin"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
@@ -582,13 +605,10 @@
 
       <!-- Footer -->
       <footer class="bg-white rounded-lg shadow mb-4 dark:bg-gray-800">
-        <div
-          class="w-full p-4 md:flex md:items-center md:justify-between"
-        >
+        <div class="w-full p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-            >© 2023
-            <a href="/" class="hover:underline">Acheivers Org</a
-            >. All Rights Reserved.
+            >© 2023 <a href="/" class="hover:underline">Acheivers Org</a>. All
+            Rights Reserved.
           </span>
           <ul
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
