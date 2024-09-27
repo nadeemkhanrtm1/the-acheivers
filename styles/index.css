@@ -3,10 +3,14 @@
   --ffsd: 0px;
   --1vw: calc((100vw - var(--sbw, 0px)) / 100);
   --1vh: var(--inner1Vh, 1vh);
-  --colorBrown: #AC8A63;
+  --colorBrown: #2963a9;
   --colorWhite: #FAFAF9;
   --colorGrey: #9CADB2;
   --colorAlmostBlack: #241E27
+}
+
+body{
+  background-color: var(--colorWhite);
 }
 
 /* Carouse Container Styles */
